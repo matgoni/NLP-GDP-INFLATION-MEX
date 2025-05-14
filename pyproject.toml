@@ -8,7 +8,11 @@ dependencies = [
     "bs4>=0.0.2",
     "dotenv>=0.9.9",
     "feedparser>=6.0.11",
+    "fitz>=0.0.1.dev2",
     "lxml-html-clean>=0.4.2",
     "newspaper3k>=0.2.8",
+    "pandas>=2.2.3",
+    "pdfplumber>=0.11.6",
     "serpapi>=0.1.5",
+    "spacy>=3.8.5",
 ]
