@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 BASE_URL    = "https://www.banxico.org.mx/publicaciones-y-prensa/informes-trimestrales/informes-trimestrales-precios.html"
-SAVE_DIR    = "../data"
+SAVE_DIR    = "data/"
 START_YEAR  = 2015
 END_YEAR    = 2024
 
