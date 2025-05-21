@@ -47,12 +47,12 @@ The project is structured as a modular pipeline composed of the following stages
 
 ## Technical Contributions and Innovations
 
-This project introduces several technical innovations to enable accurate and efficient macroeconomic discourse analysis:
+This project introduces:
 
-- **Domain-Aware Filtering**: A novel keyword-based priority scoring system isolates GDP and inflation discourse while minimizing global/noisy content.
+- **Domain-Aware Filtering**: A keyword-based priority scoring system isolates GDP and inflation discourse while minimizing global/noisy content.
 - **Efficient Preprocessing for Spanish**: Custom cleaning and lemmatization tailored to economic vocabulary enhance term quality and reduce nonsensical outputs.
 - **Low-Resource Semantic Drift Detection**: Yearly Word2Vec embeddings capture shifts in concept framing using PCA, without relying on transformer-based models.
-- **Robust Lexical Feature Engineering**: Despite its simplicity, the pipeline achieves low noise in TF-IDF outputs (only 4/30 nonsensical terms for GDP, 3/30 for inflation).
+- **Robust Lexical Feature Engineering**: Despite its simplicity, the pipeline achieves low noise in TF-IDF outputs (only 4/30 nonsensical top terms for GDP, 3/30 for inflation).
 - **Clarity and Sentiment Quantification**: Lightweight heuristics measure communicative tone and complexity, offering interpretable insights into institutional communication strategies.
 
 Together, these contributions demonstrate that meaningful analysis of policy narratives can be achieved without expensive infrastructure or large-scale pretrained models.
