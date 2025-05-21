@@ -74,7 +74,7 @@ The following visualizations and data products are generated:
 
 ### Install dependencies:
 ```bash
-pip install -r requirements.txt
+uv sync
 ```
 ### Run pipeline
 
