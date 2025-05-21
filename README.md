@@ -16,7 +16,7 @@ This project implements a domain-adapted Natural Language Processing (NLP) pipel
 
 ---
 
-## Methodology and NLP Tasks
+## Methodology
 
 The project is structured as a modular pipeline composed of the following stages:
 
