@@ -1,6 +1,4 @@
 # NLP-Based Analysis of GDP & Inflation in Mexico
-
-# NLP-Driven Analysis of Macroeconomic Discourse  
 **Bank of Mexico Inflation Reports (2015–2024)**
 
 ## Project Summary
